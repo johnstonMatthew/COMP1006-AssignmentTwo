@@ -1,0 +1,283 @@
+/* ------ Main HMTL Elements  ------ */
+/* HTML */
+html {
+    scroll-behavior: smooth;
+    background-color: #17396b;
+    /* background-image: url(../images/space.jpg);
+    background-size: cover;
+    Space Background Downloaded From Pexels https://www.pexels.com/photo/starry-sky-998641/ */
+}
+/* HTML, Body, Header and Footer Elements */
+html, body, header, footer {
+    position: relative;
+    left: 0;
+}
+/* Body Element */
+body {
+    width: 100%;
+    background-color: #4e7acd;
+}
+/* Body, Main, Fieldset Elements in a Form, Divs Inside of a Form. A Container With the ID logOutForm and a Container With the ID companyContentContainer */
+body, main, form fieldset, form div, #accountViewerMain, #logOutForm, #companyContentContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Main Element */
+main {
+    width: 100%;
+    height: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+/* ------ Header ------ */
+/* Header Element */
+header {
+    border-bottom: 5px black solid;
+}
+/* Header and Footer Elements */
+header, footer {
+    width: 100%;   
+    background-color: #17396b;
+}
+/* Footer Elements */
+footer {
+    border-top: 5px black solid;
+}
+/* Footer, Container With the ID headerInfoContainer, formContainer or footerInfoContainer */
+footer, #headerInfoContainer, #formContainer, #footerInfoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+/* Img Elements Within the Header or Footer */
+header img, footer img {
+    width: 100px;
+    height: auto;
+}
+/* li Elements Inside of a Menu Container Which is in a nav Container and Menu Containers Inside of a nav Container */
+nav menu li, nav menu {
+    display: flex;
+    flex-direction: row;
+}
+/* li Elements Inside of a Menu Container Which is in a nav Container */
+nav menu li {
+    font-size: 3em;
+    padding: 5px 20px;
+    border: 3px black solid;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    transition: all 0.25s linear;
+    list-style: none;
+}
+/* /* li Elements Inside of a Menu Container Which is in a nav Container, Which are Being Hovered Over With the Mouse */
+nav menu li:hover {
+    color: white;
+    border: 3px white solid;
+    background-color: black;
+    border-radius: 10px;
+}
+/* Anchor Elements Inside of a li Element Inside of a Menu Container Which is in a nav Container, When Hovered Over With the Mouse */
+nav menu li a:hover {
+    color: white;
+}
+/* ------ Form Elements ------ */
+/* Form Elements */
+form {
+    margin: 25px;
+}
+/* Fieldset Elements Within a Form Element */
+form fieldset {    
+    width: 100%;
+    height: 300px;
+    border: 3px lightgray solid;
+    border-radius: 15px;
+}
+/* div Elements Inside of a Fieldset Element Inside of a Form Element */
+form fieldset div {
+    margin: 5px;
+}
+/* Input Elements */
+input {
+    border-radius: 15px;
+    transition: all 0.25s ease-in-out;
+}
+/* Input Elements When Clicked */
+input:focus {
+    box-shadow: 3px 3px 3px black;
+}
+/* ------ Text Elements ------ */
+/* Headings */
+h1, h2, h3 {
+    font-family: "Akaya Kanadaka";
+}
+/* h1 Elements */
+h1 {
+    font-size: 2.5em;
+    margin: 25px;  
+}
+/* h3 Elements */
+h3 {
+    font-size: 2em;
+    margin-top: 15px;
+}
+/* h1, h3, Input, p tags Inside of a Main Element, Anchor Elements Inside of a Main Element */
+h1, h3, label, main p, main a {
+    color: white;  
+}
+/* p, Anchor Elements and td Elements Inside of a tr Element Which is Inside of a Tbody Element */
+p, a, tbody tr td {
+    font-family: "Sour Gummy";
+}
+/* p tags and Anchor Elements Inside of a Main Element */
+p, main a {
+    font-size: 1.2em;
+}
+/* Anchor Elements Inside of a Main Element */
+main a {
+    text-decoration: underline;
+}
+/* Anchor Elements */
+a {
+    text-decoration: none;
+    color: black;
+}
+/* h1, h2, h3, p and Anchor Elements */
+h1, h2, h3, p, a {
+    text-align: center;
+}
+/* ------ Table Elements ------ */
+/* Table Element */
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    margin: 15px;
+}
+/* tr Element */
+tr {
+    border: 3px solid black;
+}
+/* tr Elements Within a thead Element */
+thead tr th {
+    background-color: #17396b;
+    color: white;
+    font-family: "Akaya Kanadaka";
+    font-size: 2em;
+}
+/* th Element */
+td, th {
+    border: 3px solid black;
+}
+/* th Elements Within a tr Element */
+tbody tr td, tbody tr th {
+    background-color: #1f5fa6;
+    font-size: 1.5em;
+    color: white;
+}
+/* tr and th Element */
+tr, td, th {
+    padding: 10px;
+}
+
+/* ------ IDs ------ */
+/* An Element With the headerInfoContainer ID */
+#headerInfoContainer {
+    justify-content: space-between;
+}
+/* Form Elements Within an Element With the headerInfoContainer ID */
+#headerInfoContainer form {
+    margin: 0;
+}
+/* An Element With the socialMediaLogos ID  */
+#socialMediaLogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+/* Any img Elements Within an Element With the socialMediaLogos ID */
+#socialMediaLogos img {
+    display: flex;
+    width: 75px;
+    height: auto;
+    background-color: whitesmoke;
+    border: 3px black solid;
+    border-radius: 50%;
+}
+/* An Element With the headerInfoContainer and an Element With the footerInfoContainer */
+#headerInfoContainer, #footerInfoContainer {
+    background-color: #0bd2e6;
+    border: 3px black solid; 
+    border-radius: 30px;
+    margin: 25px;
+    padding: 10px;
+} 
+/* p Elements Within An Element With the logOutForm ID  */
+#logOutForm p {
+    margin-bottom: 8px;
+}
+/* ------ Classes ------ */
+/* Elements With the smallText Class */
+.smallText {
+    font-size: 0.6em;
+}
+/* Elements With the buttonContainer Class */
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+}
+/* input Elements Within an Element With the buttonContainer Class */
+.buttonContainer input {
+    margin: 5px;
+}
+
+/* Media Query That Only Happens With Devices Whose Viewport is 768px or Below */
+@media screen and (max-width: 768px) {
+    #headerInfoContainer {
+        justify-content: center;
+    }
+    #headerInfoContainer nav menu  {
+        flex-direction: column;
+    }
+    #footerInfoContainer {
+        flex-direction: column;
+    }
+    #socialMediaLogos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 15px;
+        margin: 10px;
+    }
+    #formContainer {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 2em;
+    } 
+    h3 {
+        font-size: 1.7em;
+    }
+    nav menu li {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+    thead tr th {
+        font-size: 1.1em;
+    }  
+    tbody tr td {
+        font-size: 0.9em;
+    }
+    tbody tr td:last-child {
+        width: 50%;
+    }
+    header img, footer img {
+        width: 75px;
+        height: auto;
+    }
+}
